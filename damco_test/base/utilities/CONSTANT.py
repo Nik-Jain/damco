@@ -1,0 +1,9 @@
+SMTP_SERVER = "smtp.gmail.com"  # Google SMTP Server
+SMTP_PORT = 587                 # Standard secure SMTP port
+SENDER = 'jainnikhil0258@gmail.com'
+RECEIVER = ['jainnikhil0258@gmail.com']
+SUCCESS_EMAIL_SUBJECT = 'Recipe upload status: success'
+FAILURE_EMAIL_SUBJECT = 'Recipe upload status: fail'
+SUCCESS_EMAIL_BODY = 'All recipes uploaded successfully. Count of successful records: '
+FAIL_EMAIL_BODY_1 = 'There is some issue with recipe upload. Count of failed records: '
+FAIL_EMAIL_BODY_2 = '\n Attached sheet with all recipe'
